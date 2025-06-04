@@ -3,17 +3,17 @@
     "id": null,
     "worker-id": null
   },
-  "http": {
+  "_http_": {
     "enabled": false,
     "host": "127.0.0.1",
     "port": 0,
     "access-token": null,
     "restricted": true
   },
-  "http_v2": {
-    "enabled": true,
+  "http": {
+    "enabled": false,
     "host": "127.0.0.1",
-    "port": 18088,
+    "port": 18081,
     "access-token": null,
     "restricted": true
   },
@@ -76,7 +76,7 @@
       "rig-id": "Nanopool XMR US EAST 1",
       "nicehash": false,
       "keepalive": true,
-      "enabled": false,
+      "enabled": true,
       "tls": true,
       "sni": false,
       "tls-fingerprint": null,
@@ -95,7 +95,7 @@
       "rig-id": "Nanopool XMR US West 1",
       "nicehash": false,
       "keepalive": true,
-      "enabled": false,
+      "enabled": true,
       "tls": true,
       "sni": false,
       "tls-fingerprint": null,
@@ -109,7 +109,7 @@
       "coin": "monero",
       "url": "127.0.0.1:18081",
       "user": "48Mgp6p8ndNHDvjjjhxfXV9y9v6MjZsCaLeemBECASMK9iy4MJdGGz94kyL6jhmdDLD3AvaATPu49ac7qksLvSMt65uYiT4",
-      "enabled": true,
+      "enabled": false,
       "daemon": true
     }
   ],
